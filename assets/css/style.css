@@ -3,30 +3,28 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
-#heading {
+.heading {
   background-color: rgba(112, 147, 219);
+  -webkit-border-radius: 10px 20px 25px 30px;
+  padding: 1% 10% 0 10%;
+  margin: 1% 10% 0 10%;
   font-family: sans-serif;
-  padding: 10px;
 }
-.header {
+
+.bar-navigation ul{
   display: flex;
   justify-content: space-between;
 }
-.header-one {
-  padding-left: 10%;
+
+.heading li {
+  list-style: none;
 }
-.header-two {
-  padding-right: 75%;
-  padding-top: 5px;
-}
-.header-two a {
-  font-size: 16px;
+.heading a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-#heading a {
-  text-decoration: none;
-  color:rgb(255, 255, 255);
-}
+
 
 
 
